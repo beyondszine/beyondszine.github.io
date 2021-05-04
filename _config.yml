@@ -28,7 +28,7 @@ twitter_username: shadyshandilya
 github_username:  beyondszine
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
