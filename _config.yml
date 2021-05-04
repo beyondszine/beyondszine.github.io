@@ -22,7 +22,7 @@ title: Some title to test this
 email: saurabhshandilya.1991@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Some description here to check if this works!!
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shadyshandilya
 github_username:  beyondszine
