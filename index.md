@@ -1,5 +1,9 @@
 ---
 layout: default
+title: In Progress...
+description: Hang on! Main website is in progress!   
+dropdown: dropdown1
+priority: 1
 ---
 
 

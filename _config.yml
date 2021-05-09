@@ -25,9 +25,46 @@ description: >- # this means to ignore newlines until "baseurl:"
 # url: "https://saurabhshandilya.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shadyshandilya
 github_username:  beyondszine
+linkedin_id: "shandilyasaurabh"
+
+reading_time:     true
+words_per_minute: 200
+
 
 show_downloads: false
 google_analytics: G-YWWL57GDH4
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Theme
+# theme: jekyll-theme-potato-hacker                 # Uncomment this
+# remote_theme: luxedo/jekyll-theme-potato-hacker   # Or this
+theme_repository: "https://github.com/luxedo/jekyll-theme-potato-hacker"
+theme_base: "dark"       # Theme palette (light | dark)
+theme_switch: on         # Show color switch (on | off)
+
+# Extra settings
+blog: on                 # Show blog tag and post list (on | off)
+avatar: on               # Show avatar (on | off)
+avatar_image: "assets/img/avatar.jpg"
+avatar_description: "My name is Saurabh Shandilya and I'm a tech junkie."
+highlighter_theme: gruvbox  # Theme of the syntax_highlighter [base16 |
+                            # colorful | github | gruvbox | molokai |
+                            # monokai | pastie | thankful_eyes | tulip ]
+toolbar_priority:        # Order of the items in the toolbar (except for blog and home)
+  - dropdown1
+  - dropdown2
+  - About
+
+# Collections
+collections:
+  dropdown:
+    output: true
+  items:
+    output: true
+# ------------------------------------------------------------------------------
 
 
 # Build settings
@@ -80,14 +117,22 @@ author: "saurabh shandilya"
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Build settings
+excerpt_separator: "<!--more-->"
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
