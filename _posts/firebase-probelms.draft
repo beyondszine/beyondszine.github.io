@@ -1,0 +1,5 @@
+### Where should the data be played around with backend or frontend??
+
+One particular problem I feel with dynamically changing requirements & scope of work while using firebase ecosystem is that there is just too much flexibility.
+Yeah truly, its like what `javascript` does to web developers.  You are given too much flexibility so majority of it is going to not really get done in the most right way possible.  But lets agree that ranting about javascript requires a post of its own.
+Firebase too in same regards gives developers the flexibility to interact with database, do authentication, make api calls and what not from the frontend sdk itself.  So a lot of times, the segregation between 
