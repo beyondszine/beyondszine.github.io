@@ -2,7 +2,7 @@
 layout: post
 title: "Problem with Social Login Provider Tokens using Firebase Authentication with capacitor"
 date: 5th May, 2021 18:41:48 +0530
-categories: ionic hybridapps capacitor mobile
+categories: tech mobile hybridapps ionic capacitor 
 tags: [ionic, hybridapps, capacitor, mobile]
 ---
 
